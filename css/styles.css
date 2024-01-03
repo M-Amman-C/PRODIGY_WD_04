@@ -1,0 +1,426 @@
+.homeBody{
+  overflow: hidden;
+}
+
+
+.boxBorder{
+  position: absolute;
+  box-shadow: 0px 4px 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+#education{
+  /* Education */
+width: 506px;
+height: 292px;
+left: 30px;
+top: 20px;
+
+background: url("../images/Home/Education.png");
+background-size: cover;
+
+}
+
+#aboutMe{
+  /* About Me */
+
+width: 153.69px;
+height: 292px;
+left: 600.69px;
+top: 20.78px;
+
+background: url("../images/Home/About\ Me.png");
+background-size: cover;
+background-repeat: no-repeat;
+
+text-align: center;
+font-size: 30px;
+line-height: 50px;
+font-weight: bold;
+}
+
+#experience{
+  /* Experience */
+width: 511.32px;
+height: 292px;
+left: 755.69px;
+top: 355.78px;
+
+background: url("../images/Home/Experience.png");
+background-size: cover;
+}
+
+#projects{
+  /* Projects */
+
+width: 631.41px;
+height: 502.27px;
+left: 500.69px;
+top: 700.78px;
+
+background: url("../images/Home/Projects.png");
+background-size: contain;
+background-repeat: no-repeat;
+
+
+text-align: center;
+font-weight: bold;
+font-size: 40px;
+line-height: 100px;
+
+}
+
+
+#emptyBox1{
+  
+width: 411.32px;
+height: 292px;
+left: 820.69px;
+top: 20.78px;
+
+background-size: cover;
+}
+
+#emptyBox2{
+  
+width: 411.32px;
+height: 292px;
+left: 1290.69px;
+top: 20.78px;
+
+background-size: cover;
+}
+
+#emptyBox3{
+  
+width: 411.32px;
+height: 292px;
+left: 1330.69px;
+top: 355.78px;
+
+background-size: cover;
+}
+
+#emptyBox4{
+  
+  width: 411.32px;
+  height: 292px;
+  left: 1200.69px;
+  top: 700.78px;
+  
+  background-size: cover;
+  }
+
+#resume{
+  /* Resume */
+
+position: absolute;
+width: 153px;
+height: 54px;
+left: 547px;
+top: 401px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 10px 10px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+
+/* Resume */
+
+font-family: 'Fredericka the Great';
+font-size: 27px;
+line-height: 55px;
+text-align: center;
+
+color: #000000;
+
+
+}
+
+.titleName{
+/* MohammedAmman Chopadiya */
+
+position: absolute;
+width: 783px;
+height: 148px;
+left: 32px;
+top: 302.78px;
+
+font-family: 'Fredericka the Great';
+font-style: normal;
+font-weight: 500;
+font-size: 52px;
+line-height: 56px;
+
+color: #000000;
+
+}
+
+.titleDesc{
+  /* Bringing forth a motivated attitude and a variety of powerful skills. Striving to learn new skills and developing new abilities. Good with technical as well as soft skills */
+
+position: absolute;
+width: 506px;
+height: 48px;
+left: 31px;
+top: 466.78px;
+
+font-family: 'Footlight MT Light';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+
+color: #000000;
+
+
+}
+
+#mainImage{
+  /* Main Image */
+
+position: absolute;
+width: 330px;
+height: 348.53px;
+left: 31px;
+top: 550px;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+a:visited{
+  color: inherit;
+}
+
+/*------------------------------------------------------------Page Titles------------------------------------------------------------*/
+
+
+.pageTitle{
+/* EXPERIENCE */
+
+font-family: 'Enriqueta';
+font-weight: 700;
+font-size: 53px;
+text-align: center;
+line-height: 10px;
+
+}
+
+.returnHome{
+  /* BACK */
+
+position: absolute;
+left: calc(50% - 168px/2 + 576px);
+top: 7px;
+
+font-family: 'Enriqueta';
+font-weight: 500;
+font-size: 35px;
+
+color: #000000;
+
+
+}
+
+
+
+/*------------------------------------------------------------About Me------------------------------------------------------------*/
+
+.aboutBackground{
+  /* About background */
+
+position: absolute;
+width: 1318px;
+height: 357px;
+left: calc(50% - 1318px/2);
+bottom: 50px;
+
+background: #262626;
+color: #FFFFFF;
+
+/* Call: +91 8154832679 */
+
+font-family: 'Galdeano';
+font-size: 20px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.myInfoGroup{
+  /* My Info Group */
+
+width: 1102px;
+height: 62px;
+left: 146px;
+top: 651px;
+
+margin: 10px auto 0px auto;
+
+display: grid;
+grid-template-columns: auto auto auto;
+align-items: center;
+}
+
+.infoElement a{
+  color: #FFFFFF;
+}
+
+.quickLinks a:hover, .infoElement a:hover{
+  color: coral;
+}
+
+.infoBottom{
+  /* Group 9 */
+
+  width: 1239px;
+  height: 177px;
+  display: grid;
+  grid-template-columns: 40% 20% 40%;
+
+  margin: 60px 20px 0px auto;
+
+  align-content: center;
+}
+
+.quickLinks{
+  text-align: center;
+  border-spacing: 15px;
+}
+
+
+.socialMediaLinks{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.contactMe{
+  font-size: 30px;
+  margin-left: 150px;
+  text-align: left;
+}
+
+#message{
+  margin-top: 10px;
+  width: 290px;
+  height: 70px;
+  resize: none;
+}
+
+#sendMailButton{
+/* Rectangle 16 */
+
+width: 136px;
+height: 38px;
+margin-top: 10px;
+background: #00E0AB;
+
+
+/* Send Mail */
+
+font-family: 'Galdeano';
+font-size: 24px;
+
+color: #FFFFFF;
+border: none;
+}
+
+#sendMailButton:hover{
+  border: 1px solid #00E0AB;
+  color: #00E0AB;
+  background-color: #262626;
+}
+
+
+/*------------------------------------------------------------Education------------------------------------------------------------*/
+
+.screenDivision{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.circle{
+  width: 61px;
+  height: 61px;
+  background-color: #D9D9D9;
+  border-radius: 50px;
+}
+
+/*-----------RIGHT Table------------*/
+
+.right table{
+
+  font-family: 'Galdeano';
+  font-size: 25px;
+  line-height: 37px;
+  margin: 30px 0px 0px 150px;
+}
+
+
+#rline{
+position: absolute;
+width: 351px;
+height: 0px;
+left: 13.5px;
+top: 425px;
+
+border: 3px solid #D9D9D9;
+transform: rotate(-90deg);
+}
+
+.right .eduInfo{
+  padding: 30px 0px 30px 15px;
+}
+
+/*-----------LEFT Table------------*/
+
+.left table{
+  font-family: 'Galdeano';
+  font-size: 25px;
+  line-height: 37px;
+  margin: 30px 0px 0px 50px;
+}
+
+#lline{
+  position: absolute;
+  width: 501px;
+  height: 0px;
+  left: 598px;
+  top: 479px;
+  
+  border: 3px solid #D9D9D9;
+  transform: rotate(-90deg);
+  }
+
+  .left .eduInfo{
+    padding: 30px 0px 20px 15px;
+  }
+
+/*------------------------------------------------------------Exprience Page------------------------------------------------------------*/
+
+#explLine{
+  position: absolute;
+  width: 987px;
+  height: 0px;
+  left: 347px;
+  top: 719px;
+  
+  border: 3px solid #D9D9D9;
+  transform: rotate(-90deg);
+  }
+
+  /*------------------------------------------------------------Project Page------------------------------------------------------------*/
+
+  #projectsList{
+    /* Rectangle 27 */
+
+position: absolute;
+width: 1283px;
+height: 607px;
+margin: 50px 0px auto 100px;
+
+background: #D9D9D9;
+
+  }
