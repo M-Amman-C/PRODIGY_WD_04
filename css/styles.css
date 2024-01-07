@@ -9,6 +9,12 @@
   border-radius: 10px;
 }
 
+.boxBorder:hover{
+  position: absolute;
+  box-shadow: 0px 4px 10px 10px rgba(0, 0, 0, 0.50);
+  border-radius: 10px;
+}
+
 #education{
   /* Education */
 width: 506px;
@@ -23,27 +29,23 @@ background-size: cover;
 
 #aboutMe{
   /* About Me */
+  width: 411.32px;
+  height: 292px;
+  left: 720.69px;
+  top: 20.78px;
 
-width: 153.69px;
-height: 292px;
-left: 600.69px;
-top: 20.78px;
-
-background: url("../images/Home/About\ Me.png");
-background-size: cover;
-background-repeat: no-repeat;
-
-text-align: center;
-font-size: 30px;
-line-height: 50px;
-font-weight: bold;
+  background: url("../images/Home/About\ Me.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0px 20px;
+  
 }
 
 #experience{
   /* Experience */
 width: 511.32px;
 height: 292px;
-left: 755.69px;
+left: 955.69px;
 top: 355.78px;
 
 background: url("../images/Home/Experience.png");
@@ -62,7 +64,6 @@ background: url("../images/Home/Projects.png");
 background-size: contain;
 background-repeat: no-repeat;
 
-
 text-align: center;
 font-weight: bold;
 font-size: 40px;
@@ -72,22 +73,26 @@ line-height: 100px;
 
 
 #emptyBox1{
-  
-width: 411.32px;
-height: 292px;
-left: 820.69px;
-top: 20.78px;
+  position: absolute;
+  width: 253.69px;
+  height: 292px;
+  left: 500.69px;
+  top: 20.78px;
 
-background-size: cover;
+  background-image: url("../images/34183288_gel7.jpg");
+  z-index: -1;
+  background-size: cover;
 }
 
 #emptyBox2{
   
+position: absolute;
 width: 411.32px;
 height: 292px;
-left: 1290.69px;
-top: 20.78px;
+left: 1150.69px;
+top: 40.78px;
 
+background-image: url("../images/Vector.jpg");
 background-size: cover;
 }
 
@@ -117,7 +122,7 @@ background-size: cover;
 position: absolute;
 width: 153px;
 height: 54px;
-left: 547px;
+left: 647px;
 top: 401px;
 
 background: #FFFFFF;
@@ -227,6 +232,28 @@ color: #000000;
 
 /*------------------------------------------------------------About Me------------------------------------------------------------*/
 
+.aboutMe{
+  display: grid;
+  grid-template-columns: auto auto;
+
+  margin: 100px 0px 0px 40px;
+  text-align: center;
+
+  font-family: 'Galdeano';
+  font-size: 40px;
+}
+
+
+.aboutMe ul{
+  text-align: left;
+  margin-left: 30px;
+  list-style: inside;  
+}
+
+.hobbies{
+  margin-top: 50px;
+}
+
 .aboutBackground{
   /* About background */
 
@@ -234,7 +261,7 @@ position: absolute;
 width: 1318px;
 height: 357px;
 left: calc(50% - 1318px/2);
-bottom: 50px;
+top: 1050px;
 
 background: #262626;
 color: #FFFFFF;
